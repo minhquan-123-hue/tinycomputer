@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/tinycomputer.dir/link.d CMakeFiles/tinycomputer.dir/src/main.cpp.o CMakeFiles/tinycomputer.dir/src/RAM.cpp.o CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o -o /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer
