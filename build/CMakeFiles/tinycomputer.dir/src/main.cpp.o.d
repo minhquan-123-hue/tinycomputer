@@ -148,9 +148,13 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/locale_conv.h \
  /usr/include/c++/16/bits/quoted_string.h /usr/include/c++/16/sstream \
  /usr/include/c++/16/bits/sstream.tcc \
- /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/Bus.h \
  /usr/include/c++/16/cstdint \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/IoUnit.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/StorageController.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/REGISTERS.h

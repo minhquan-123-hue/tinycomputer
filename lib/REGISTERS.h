@@ -1,6 +1,8 @@
 #ifndef REGISTERS_H
 #define REGISTERS_H
 
+// this class contain "blue print"
+// of unsign int 8 bit.
 #include <cstdint>
 
 class REGISTERS

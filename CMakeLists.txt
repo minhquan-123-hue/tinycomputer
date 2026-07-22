@@ -7,8 +7,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(tinycomputer
     src/main.cpp
+    src/Bus.cpp
+    src/IoUnit.cpp
     src/RAM.cpp
     src/REGISTERS.cpp
+    src/StorageController.cpp
 )
 
 target_include_directories(tinycomputer PRIVATE

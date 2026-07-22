@@ -11,6 +11,7 @@ void REGISTERS::set_a(uint8_t value)
     reg_a = value;
 }
 
+// read-only function 
 uint8_t REGISTERS::get_a() const
 {
     return reg_a;

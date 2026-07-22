@@ -85,12 +85,12 @@ clean: CMakeFiles/tinycomputer.dir/clean
 CMakeFiles/tinycomputer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=1,2,3,4 "Built target tinycomputer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target tinycomputer"
 .PHONY : CMakeFiles/tinycomputer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tinycomputer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zigzagtik/studycs/tinycomputer/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zigzagtik/studycs/tinycomputer/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tinycomputer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zigzagtik/studycs/tinycomputer/build/CMakeFiles 0
 .PHONY : CMakeFiles/tinycomputer.dir/rule
@@ -102,7 +102,7 @@ tinycomputer: CMakeFiles/tinycomputer.dir/rule
 # codegen rule for target.
 CMakeFiles/tinycomputer.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target tinycomputer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target tinycomputer"
 .PHONY : CMakeFiles/tinycomputer.dir/codegen
 
 # clean rule for target.

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include "../lib/Bus.h"
 #include "../lib/RAM.h"
 #include "../lib/REGISTERS.h"
 
@@ -36,6 +37,17 @@ int main()
 
     std::cout << "A = " << static_cast<int>(REGISTERS.get_a()) << '\n';
     std::cout << "B = " << static_cast<int>(REGISTERS.get_b()) << '\n';
+
+    Bus bus;
+
+    bus.write(0x10, 42);
+    std::cout << "RAM via Bus: " << static_cast<int>(bus.read(0x10)) << '\n';
+
+    bus.write(0xE5, 7);
+    std::cout << "IO via Bus: " << static_cast<int>(bus.read(0xE5)) << '\n';
+
+    bus.write(0xF3, 9);
+    std::cout << "SSD via Bus: " << static_cast<int>(bus.read(0xF3)) << '\n';
 
     return 0;
 }
