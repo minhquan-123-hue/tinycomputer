@@ -6,6 +6,9 @@ Bus::Bus()
 
 uint8_t Bus::read(uint8_t address) const
 {
+    // each component have it own "short-term" memory + address
+    // cpu can procduce 256 address
+    // RAM 244, I/O 16 , SC 16
     if (address < 0xE0)
     {
         return ram.read(address);
