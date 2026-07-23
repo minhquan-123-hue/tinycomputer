@@ -24,19 +24,19 @@ int main()
     }
 
 
-    REGISTERS REGISTERS;
+    REGISTERS registers;
 
-    REGISTERS.set_a(15);
-    REGISTERS.set_b(99);
+    registers.set_a(15);
+    registers.set_b(99);
 
-    std::cout << "A = " << static_cast<int>(REGISTERS.get_a()) << '\n';
-    std::cout << "B = " << static_cast<int>(REGISTERS.get_b()) << '\n';
+    std::cout << "A = " << static_cast<int>(registers.get_a()) << '\n';
+    std::cout << "B = " << static_cast<int>(registers.get_b()) << '\n';
 
-    REGISTERS.set_a(200);
-    REGISTERS.set_b(50);
+    registers.set_a(200);
+    registers.set_b(50);
 
-    std::cout << "A = " << static_cast<int>(REGISTERS.get_a()) << '\n';
-    std::cout << "B = " << static_cast<int>(REGISTERS.get_b()) << '\n';
+    std::cout << "A = " << static_cast<int>(registers.get_a()) << '\n';
+    std::cout << "B = " << static_cast<int>(registers.get_b()) << '\n';
 
     Bus bus;
 
@@ -48,6 +48,22 @@ int main()
 
     bus.write(0xF3, 9);
     std::cout << "SSD via Bus: " << static_cast<int>(bus.read(0xF3)) << '\n';
+
+    bus.write(0xE2, 'H');
+    bus.write(0xE2, 'i');
+    bus.write(0xE2, '\n');
+
+    std::cout << "IO status (before key): "
+              << static_cast<int>(bus.read(0xE0)) << '\n';
+
+    bus.get_io_unit().push_key_input('X');
+
+    std::cout << "IO status (after key): "
+              << static_cast<int>(bus.read(0xE0)) << '\n';
+    std::cout << "IO key data: "
+              << static_cast<int>(bus.read(0xE1)) << '\n';
+    std::cout << "IO status (after read): "
+              << static_cast<int>(bus.read(0xE0)) << '\n';
 
     return 0;
 }

@@ -20,9 +20,69 @@
   /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
   /usr/lib64/libatomic.so.1.2.0 \
   /usr/lib64/libc_nonshared.a \
+  CMakeFiles/tinycomputer.dir/src/Bus.cpp.o \
+  CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o \
   CMakeFiles/tinycomputer.dir/src/RAM.cpp.o \
   CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o \
+  CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o \
   CMakeFiles/tinycomputer.dir/src/main.cpp.o
+
+CMakeFiles/tinycomputer.dir/src/Bus.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/Bus.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/RAM.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/cstdint \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
+
+CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/IoUnit.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/cstdint \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
 CMakeFiles/tinycomputer.dir/src/RAM.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/RAM.cpp \
   /home/zigzagtik/studycs/tinycomputer/lib/RAM.h \
@@ -78,9 +138,39 @@ CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o: /home/zigzagtik/studycs/tinycom
   /usr/include/sys/cdefs.h \
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
+CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/cstdint \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
+
 CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/main.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
   /home/zigzagtik/studycs/tinycomputer/lib/RAM.h \
   /home/zigzagtik/studycs/tinycomputer/lib/REGISTERS.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -307,504 +397,522 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
 
-/usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h:
+/usr/include/c++/16/bits/basic_ios.h:
 
-/usr/include/time.h:
+/usr/include/c++/16/bits/allocator.h:
 
-/usr/include/sys/single_threaded.h:
+/usr/include/bits/stdlib-float.h:
 
-/usr/include/sys/select.h:
+/usr/include/bits/time64.h:
 
-/usr/include/pthread.h:
+/usr/include/c++/16/bit:
 
-/usr/include/locale.h:
+/usr/include/c++/16/bits/alloc_traits.h:
 
-/usr/include/linux/types.h:
+/usr/include/c++/16/backward/binders.h:
 
-/usr/include/linux/sched/types.h:
+/usr/include/bits/wctype-wchar.h:
 
-/usr/include/linux/posix_types.h:
+/usr/include/sys/types.h:
 
-/usr/include/linux/errno.h:
+/usr/include/bits/timesize.h:
 
-/usr/include/libintl.h:
+/usr/include/c++/16/string:
 
-/usr/include/errno.h:
+/usr/include/bits/types/timer_t.h:
 
-/usr/include/c++/16/x86_64-redhat-linux/bits/time_members.h:
+/usr/include/c++/16/bits/ostream_insert.h:
 
-/usr/include/stdlib.h:
+/usr/include/bits/types/struct_timespec.h:
 
-/usr/include/c++/16/x86_64-redhat-linux/bits/messages_members.h:
+/usr/include/bits/waitflags.h:
 
-/usr/include/c++/16/x86_64-redhat-linux/bits/gthr-default.h:
+/usr/include/bits/types/struct_sched_param.h:
 
-/usr/include/c++/16/typeinfo:
+/usr/include/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/16/tuple:
+/usr/lib/gcc/x86_64-redhat-linux/16/libatomic_asneeded.so:
 
-/usr/include/c++/16/stdexcept:
+/usr/include/bits/types/sigset_t.h:
 
-/usr/include/c++/16/sstream:
+/usr/include/c++/16/bits/memory_resource.h:
 
-/usr/include/c++/16/ostream:
+/usr/include/bits/types/clock_t.h:
 
-/usr/include/c++/16/new:
+/usr/include/bits/types/__locale_t.h:
 
-/usr/include/c++/16/istream:
+/usr/include/bits/timex.h:
 
-/usr/include/c++/16/iostream:
+/usr/include/bits/types/time_t.h:
 
-/usr/include/c++/16/iomanip:
+/usr/include/c++/16/bits/ostream.tcc:
 
-/usr/include/c++/16/initializer_list:
+/usr/include/c++/16/bits/istream.tcc:
 
-/usr/include/c++/16/ext/type_traits.h:
+/usr/include/c++/16/cerrno:
 
-/usr/include/c++/16/ext/string_conversions.h:
+/usr/include/c++/16/bits/locale_classes.tcc:
 
-/usr/include/c++/16/exception:
+/usr/include/bits/stdio_lim.h:
 
-/usr/include/c++/16/debug/debug.h:
+/usr/lib/gcc/x86_64-redhat-linux/16/libgcc.a:
 
-/usr/include/c++/16/ext/alloc_traits.h:
+/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/c++/16/debug/assertions.h:
+/usr/include/bits/setjmp.h:
 
-/usr/include/c++/16/ctime:
+/usr/include/bits/pthreadtypes.h:
 
-/usr/include/c++/16/cstdio:
+/lib64/libmvec.so.1:
 
-/usr/include/c++/16/cstddef:
+/usr/include/bits/floatn-common.h:
 
-/usr/include/c++/16/concepts:
+/usr/include/bits/types/struct_FILE.h:
 
-/usr/include/c++/16/bits/version.h:
+/usr/include/asm/types.h:
 
-/usr/include/c++/16/bits/uses_allocator_args.h:
+/usr/include/asm/posix_types_64.h:
 
-/usr/include/c++/16/bits/uses_allocator.h:
+/usr/include/c++/16/bits/exception_ptr.h:
 
-/usr/include/c++/16/bits/string_view.tcc:
+/usr/include/c++/16/system_error:
 
-/usr/include/c++/16/bits/streambuf_iterator.h:
+/usr/include/bits/time.h:
 
-/usr/include/c++/16/bits/stl_pair.h:
-
-/usr/include/c++/16/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/16/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/16/bits/stl_iterator.h:
-
-/usr/include/sched.h:
-
-/usr/include/c++/16/bits/stl_function.h:
-
-/usr/include/c++/16/bits/stl_algobase.h:
-
-/usr/include/c++/16/bits/sstream.tcc:
-
-/usr/include/c++/16/bits/range_access.h:
-
-/usr/include/c++/16/bits/ptr_traits.h:
-
-/usr/include/c++/16/bits/predefined_ops.h:
-
-/usr/include/c++/16/bits/ostream.h:
-
-/usr/include/c++/16/bits/new_allocator.h:
-
-/usr/include/c++/16/string_view:
-
-/usr/include/c++/16/bits/nested_exception.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/c++allocator.h:
-
-/usr/include/c++/16/bits/move.h:
-
-/usr/include/c++/16/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/16/bits/locale_facets_nonio.h:
-
-/usr/include/c++/16/bits/locale_facets.tcc:
-
-/usr/include/c++/16/bits/locale_facets.h:
-
-/usr/include/c++/16/iosfwd:
-
-/usr/include/c++/16/bits/streambuf.tcc:
-
-/usr/include/c++/16/bits/locale_conv.h:
-
-/usr/include/c++/16/bits/new_throw.h:
-
-/usr/include/c++/16/bits/locale_classes.h:
-
-/usr/include/c++/16/bits/ios_base.h:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/16/bits/functional_hash.h:
-
-/usr/include/c++/16/bits/functexcept.h:
-
-/usr/include/c++/16/bits/exception_defines.h:
-
-/usr/include/c++/16/bits/utility.h:
-
-/usr/include/c++/16/bits/hash_bytes.h:
-
-/usr/include/c++/16/bits/erase_if.h:
-
-/usr/include/c++/16/bits/cxxabi_init_exception.h:
+/usr/include/asm/posix_types.h:
 
 /usr/include/asm/bitsperlong.h:
 
-/usr/include/asm-generic/int-ll64.h:
-
-/home/zigzagtik/studycs/tinycomputer/lib/REGISTERS.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/16/bits/stdexcept_throw.h:
-
-/usr/include/stdint.h:
-
-/home/zigzagtik/studycs/tinycomputer/src/RAM.cpp:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/c++/16/bits/stringfwd.h:
-
-/home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/gthr.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h:
-
-/usr/include/c++/16/streambuf:
-
-/usr/include/c++/16/bits/stdexcept_throwfwd.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/16/cctype:
-
-/usr/include/c++/16/bits/invoke.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h:
-
-/lib64/libgcc_s.so.1:
-
-/usr/include/c++/16/cstdint:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/c++/16/cstdlib:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/16/bits/ostream_print.h:
-
-/usr/include/c++/16/pstl/pstl_config.h:
-
-/usr/include/bits/types.h:
-
-/usr/lib64/libatomic.so.1.2.0:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/lib64/libc.so:
-
-/usr/lib64/crt1.o:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/16/clocale:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/c++/16/bits/stl_construct.h:
-
-/usr/include/c++/16/bits/memoryfwd.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/lib64/libm.so:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/lib64/crti.o:
+/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o:
 
 /usr/include/c++/16/bits/quoted_string.h:
 
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o:
-
-/usr/include/c++/16/bits/new_except.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s.so:
-
-/usr/lib64/crtn.o:
-
-CMakeFiles/tinycomputer.dir/src/main.cpp.o:
-
-/lib64/libm.so.6:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/16/bits/char_traits.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/libatomic.so:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
-
-/usr/lib64/libc_nonshared.a:
-
-/lib64/libc.so.6:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so:
-
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o:
-
-/usr/include/c++/16/bits/postypes.h:
-
-/lib64/ld-linux-x86-64.so.2:
-
-/usr/include/bits/locale.h:
-
-/home/zigzagtik/studycs/tinycomputer/lib/RAM.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/error_constants.h:
-
-/usr/include/c++/16/type_traits:
-
-/usr/include/c++/16/cwchar:
-
-CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
-
-/usr/include/sys/cdefs.h:
+/usr/include/stdc-predef.h:
 
 /usr/include/c++/16/locale:
 
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/16/bits/exception.h:
-
-/usr/include/gnu/stubs.h:
+/usr/include/asm-generic/errno.h:
 
 /home/zigzagtik/studycs/tinycomputer/src/main.cpp:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
-/usr/include/asm/errno.h:
-
 /usr/include/bits/endian.h:
 
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/stdint-least.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/ctype_inline.h:
-
-/usr/include/c++/16/system_error:
-
-/usr/include/c++/16/bits/exception_ptr.h:
-
-/usr/include/asm/posix_types_64.h:
-
-/usr/include/asm/types.h:
-
-/usr/include/c++/16/ext/atomicity.h:
-
-/usr/include/c++/16/bits/stdexcept_except.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/c++/16/bits/requires_hosted.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h:
+/usr/include/sys/cdefs.h:
 
 /usr/include/bits/byteswap.h:
 
-/usr/include/features.h:
+/usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h:
 
-/usr/include/bits/endianness.h:
-
-/usr/include/bits/floatn-common.h:
-
-/lib64/libmvec.so.1:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/bits/setjmp.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/libgcc.a:
-
-/usr/include/bits/time.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/c++/16/bits/locale_classes.tcc:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/c++/16/cerrno:
-
-/usr/include/c++/16/bits/istream.tcc:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/c++/16/bits/ostream.tcc:
+/usr/include/c++/16/bits/requires_hosted.h:
 
 /usr/include/c++/16/bits/localefwd.h:
 
-/usr/include/bits/types/time_t.h:
+/home/zigzagtik/studycs/tinycomputer/lib/Bus.h:
 
-/usr/include/bits/thread-shared-types.h:
+CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o:
 
-/usr/include/wctype.h:
+/usr/include/features-time64.h:
 
-/usr/include/bits/errno.h:
+/usr/include/c++/16/type_traits:
 
-/usr/include/bits/timex.h:
+/usr/include/c++/16/x86_64-redhat-linux/bits/error_constants.h:
 
-/usr/include/bits/types/FILE.h:
+/usr/include/bits/types/locale_t.h:
 
-/usr/include/c++/16/ext/numeric_traits.h:
+/lib64/libc.so.6:
 
-/usr/include/bits/types/__fpos64_t.h:
+/usr/include/asm-generic/int-ll64.h:
 
-/usr/include/bits/types/__locale_t.h:
+/usr/lib64/libatomic.so.1.2.0:
+
+CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o:
+
+/lib64/ld-linux-x86-64.so.2:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h:
+
+/usr/include/c++/16/bits/postypes.h:
+
+CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o:
+
+/home/zigzagtik/studycs/tinycomputer/src/IoUnit.cpp:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libatomic.so:
 
 /usr/include/bits/types/__fpos_t.h:
 
-/usr/include/bits/types/clock_t.h:
+/usr/include/c++/16/bits/char_traits.h:
 
-/usr/include/c++/16/bits/memory_resource.h:
+/usr/include/bits/types/struct_tm.h:
 
-/usr/include/bits/types/sigset_t.h:
+/home/zigzagtik/studycs/tinycomputer/src/RAM.cpp:
 
-/usr/include/endian.h:
+/usr/include/bits/stdint-intn.h:
 
-/usr/include/c++/16/cwctype:
+/usr/include/bits/types/clockid_t.h:
 
-/usr/include/c++/16/bits/std_abs.h:
+/lib64/libm.so.6:
 
-/usr/include/c++/16/bits/charconv.h:
+/usr/include/c++/16/bits/stdexcept_except.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/16/libatomic_asneeded.so:
+CMakeFiles/tinycomputer.dir/src/main.cpp.o:
 
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/ctype.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/c++locale.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/16/bits/ostream_insert.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/16/string:
-
-/usr/include/bits/timesize.h:
+/usr/lib64/crtn.o:
 
 /usr/include/bits/waitstatus.h:
 
-/usr/include/sys/types.h:
+/usr/include/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/bits/wctype-wchar.h:
+/usr/include/bits/wchar.h:
 
-/usr/include/c++/16/x86_64-redhat-linux/bits/ctype_base.h:
+/usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s.so:
 
-/usr/include/c++/16/bits/cpp_type_traits.h:
+/usr/include/c++/16/bits/new_except.h:
 
-/usr/include/bits/types/wint_t.h:
+/usr/include/bits/libc-header-start.h:
 
-/usr/include/c++/16/backward/binders.h:
+/usr/include/bits/types/mbstate_t.h:
 
-/usr/include/c++/16/bits/alloc_traits.h:
+/usr/lib64/libm.so:
 
-/usr/include/c++/16/bit:
+/usr/lib64/crt1.o:
 
-/usr/include/bits/time64.h:
+/home/zigzagtik/studycs/tinycomputer/src/Bus.cpp:
 
-/usr/include/bits/stdlib-float.h:
+/usr/include/c++/16/ext/atomicity.h:
 
-/usr/include/c++/16/bits/allocator.h:
+/usr/include/c++/16/bits/new_throw.h:
+
+/usr/include/ctype.h:
+
+/usr/lib64/libc.so:
+
+/usr/include/c++/16/bits/sstream.tcc:
+
+/usr/include/bits/stdint-least.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/c++/16/bits/memoryfwd.h:
+
+/usr/include/c++/16/bits/stl_construct.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/16/clocale:
+
+/usr/include/bits/types.h:
+
+/usr/include/c++/16/bits/ostream_print.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/c++/16/cstdlib:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h:
 
-/usr/include/c++/16/bits/basic_ios.h:
+/usr/include/bits/typesizes.h:
 
-/usr/include/c++/16/x86_64-redhat-linux/bits/atomic_word.h:
-
-/usr/include/c++/16/bits/basic_ios.tcc:
-
-/usr/include/c++/16/ios:
-
-/usr/include/c++/16/bits/basic_string.h:
+/usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h:
 
 /usr/include/c++/16/bits/basic_string.tcc:
 
+/lib64/libgcc_s.so.1:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/c++/16/cctype:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/16/bits/invoke.h:
+
+/usr/include/c++/16/bits/stdexcept_throwfwd.h:
+
+CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
+
+/usr/include/c++/16/streambuf:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/16/bits/stringfwd.h:
+
+/usr/include/linux/stddef.h:
+
+/home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp:
+
+/usr/include/c++/16/bits/stdexcept_throw.h:
+
+/usr/include/alloca.h:
+
+/home/zigzagtik/studycs/tinycomputer/lib/REGISTERS.h:
+
+/home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/c++/16/debug/debug.h:
+
+/usr/include/c++/16/cstdint:
+
+/usr/include/c++/16/bits/basic_ios.tcc:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/atomic_word.h:
+
+/usr/include/c++/16/bits/basic_string.h:
+
+/home/zigzagtik/studycs/tinycomputer/lib/RAM.h:
+
+/usr/include/c++/16/ios:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/c++/16/bits/std_abs.h:
+
+/usr/include/c++/16/bits/cxxabi_forced.h:
+
+/usr/include/c++/16/cwctype:
+
+/usr/include/c++/16/bits/exception.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/gthr.h:
+
 /usr/include/c++/16/bits/codecvt.h:
 
 /usr/include/c++/16/bits/concept_check.h:
 
-/usr/include/bits/types/struct_sched_param.h:
+/usr/include/c++/16/bits/cpp_type_traits.h:
 
-/usr/include/c++/16/bits/cxxabi_forced.h:
+/usr/include/c++/16/x86_64-redhat-linux/bits/ctype_base.h:
+
+/usr/include/c++/16/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/16/bits/erase_if.h:
+
+/usr/include/c++/16/bits/hash_bytes.h:
+
+/usr/include/c++/16/bits/utility.h:
+
+/usr/include/c++/16/bits/exception_defines.h:
+
+/usr/include/c++/16/bits/functexcept.h:
+
+/usr/include/c++/16/bits/functional_hash.h:
+
+/usr/include/c++/16/bits/ios_base.h:
+
+/usr/include/c++/16/bits/locale_conv.h:
+
+/usr/include/c++/16/bits/streambuf.tcc:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/c++/16/iosfwd:
+
+/usr/include/bits/struct_mutex.h:
+
+CMakeFiles/tinycomputer.dir/src/Bus.cpp.o:
+
+/usr/include/c++/16/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so:
+
+/usr/include/c++/16/bits/locale_facets.tcc:
+
+/usr/include/c++/16/bits/locale_facets_nonio.h:
+
+/usr/include/c++/16/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/ctype_inline.h:
+
+/usr/include/c++/16/bits/move.h:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/include/c++/16/bits/nested_exception.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/16/string_view:
+
+/usr/include/c++/16/bits/new_allocator.h:
+
+/usr/include/c++/16/bits/ostream.h:
+
+/usr/include/c++/16/bits/predefined_ops.h:
+
+/usr/include/c++/16/bits/ptr_traits.h:
+
+/usr/include/c++/16/bits/range_access.h:
+
+/usr/include/c++/16/bits/stl_function.h:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
+/usr/include/c++/16/ext/numeric_traits.h:
+
+/usr/include/c++/16/bits/stl_iterator.h:
+
+/usr/include/c++/16/bits/stl_algobase.h:
+
+/usr/include/c++/16/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/16/bits/stl_iterator_base_types.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/16/bits/stl_pair.h:
+
+/home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h:
+
+/usr/include/c++/16/bits/streambuf_iterator.h:
+
+/usr/include/c++/16/bits/string_view.tcc:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/16/bits/uses_allocator.h:
+
+/usr/include/c++/16/bits/uses_allocator_args.h:
+
+/usr/include/c++/16/bits/version.h:
+
+/usr/include/c++/16/bits/locale_classes.h:
+
+/usr/include/c++/16/concepts:
+
+/usr/include/c++/16/cstddef:
+
+/usr/include/c++/16/cstdio:
+
+/usr/lib64/libc_nonshared.a:
+
+/usr/include/c++/16/ctime:
+
+/usr/include/c++/16/debug/assertions.h:
+
+/usr/include/c++/16/ext/alloc_traits.h:
+
+/usr/include/c++/16/exception:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/home/zigzagtik/studycs/tinycomputer/lib/StorageController.h:
+
+/usr/include/c++/16/bits/charconv.h:
+
+/usr/include/c++/16/ext/string_conversions.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/16/ext/type_traits.h:
+
+/usr/include/c++/16/initializer_list:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/c++/16/iomanip:
+
+/usr/include/c++/16/iostream:
+
+/usr/include/c++/16/istream:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/c++/16/new:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/c++/16/pstl/pstl_config.h:
+
+/usr/include/c++/16/ostream:
+
+/usr/include/c++/16/sstream:
+
+/usr/lib64/crti.o:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/16/stdexcept:
+
+/usr/include/c++/16/tuple:
+
+/usr/include/c++/16/typeinfo:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/messages_members.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/time_members.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/libintl.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/c++/16/cwchar:
+
+/usr/include/linux/sched/types.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/locale.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/single_threaded.h:
+
+/usr/include/time.h:

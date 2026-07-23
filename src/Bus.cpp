@@ -4,7 +4,7 @@ Bus::Bus()
 {
 }
 
-uint8_t Bus::read(uint8_t address) const
+uint8_t Bus::read(uint8_t address)
 {
     // each component have it own "short-term" memory + address
     // cpu can procduce 256 address
@@ -16,7 +16,7 @@ uint8_t Bus::read(uint8_t address) const
 
     if (address < 0xF0)
     {
-        return io_unit.read(address);
+        return io_unit.read(address - 0xE0);
     }
 
     return storage_controller.read(address);
@@ -32,9 +32,14 @@ void Bus::write(uint8_t address, uint8_t value)
 
     if (address < 0xF0)
     {
-        io_unit.write(address, value);
+        io_unit.write(address - 0xE0, value);
         return;
     }
 
     storage_controller.write(address, value);
+}
+
+IoUnit& Bus::get_io_unit()
+{
+    return io_unit;
 }

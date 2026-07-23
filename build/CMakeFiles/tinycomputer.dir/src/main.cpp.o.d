@@ -155,6 +155,13 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /usr/include/bits/stdint-least.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/IoUnit.h \
+ /usr/include/c++/16/queue /usr/include/c++/16/deque \
+ /usr/include/c++/16/bits/stl_uninitialized.h \
+ /usr/include/c++/16/bits/stl_deque.h /usr/include/c++/16/bits/deque.tcc \
+ /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_vector.h \
+ /usr/include/c++/16/bits/stl_bvector.h \
+ /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/stl_queue.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/StorageController.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/REGISTERS.h

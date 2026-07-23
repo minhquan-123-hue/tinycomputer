@@ -11,8 +11,9 @@ class Bus
 public:
     Bus();
 
-    uint8_t read(uint8_t address) const;
+    uint8_t read(uint8_t address);
     void write(uint8_t address, uint8_t value);
+    IoUnit& get_io_unit();
 
 private:
     RAM ram;
