@@ -24,6 +24,7 @@ uint8_t IoUnit::read(uint8_t local_address)
 
 bool IoUnit::is_key_available() const
 {
+    // method check "1 direction pipe"
     return !key_queue.empty();
 }
 

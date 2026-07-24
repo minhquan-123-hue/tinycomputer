@@ -20,8 +20,9 @@ int main()
         std::cout << std::left
                   << std::setw(11) << address
                   << (int)ram.read(address)
-                  << '\n';
+                  << "\n";
     }
+    std::cout << "\n";
 
 
     REGISTERS registers;
@@ -30,24 +31,10 @@ int main()
     registers.set_b(99);
 
     std::cout << "A = " << static_cast<int>(registers.get_a()) << '\n';
-    std::cout << "B = " << static_cast<int>(registers.get_b()) << '\n';
+    std::cout << "B = " << static_cast<int>(registers.get_b()) << "\n\n";
 
-    registers.set_a(200);
-    registers.set_b(50);
-
-    std::cout << "A = " << static_cast<int>(registers.get_a()) << '\n';
-    std::cout << "B = " << static_cast<int>(registers.get_b()) << '\n';
 
     Bus bus;
-
-    bus.write(0x10, 42);
-    std::cout << "RAM via Bus: " << static_cast<int>(bus.read(0x10)) << '\n';
-
-    bus.write(0xE5, 7);
-    std::cout << "IO via Bus: " << static_cast<int>(bus.read(0xE5)) << '\n';
-
-    bus.write(0xF3, 9);
-    std::cout << "SSD via Bus: " << static_cast<int>(bus.read(0xF3)) << '\n';
 
     bus.write(0xE2, 'H');
     bus.write(0xE2, 'i');
