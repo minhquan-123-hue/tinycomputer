@@ -66,4 +66,5 @@ CMakeFiles/tinycomputer.dir/src/Bus.cpp.o: \
  /usr/include/c++/16/bits/hash_bytes.h \
  /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/bits/stl_heap.h \
  /usr/include/c++/16/bits/stl_queue.h \
- /home/zigzagtik/studycs/tinycomputer/src/../lib/StorageController.h
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/StorageController.h \
+ /usr/include/c++/16/array /usr/include/c++/16/compare

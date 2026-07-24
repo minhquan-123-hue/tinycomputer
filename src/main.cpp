@@ -52,6 +52,22 @@ int main()
     std::cout << "IO status (after read): "
               << static_cast<int>(bus.read(0xE0)) << '\n';
 
+              std::cout << "\n";
+              
+    bus.write(0xF0, 0x05);
+    bus.write(0xF1, 0x01);
+    bus.write(0xF3, 77);
+
+    bus.write(0xF0, 0x00);
+    bus.write(0xF1, 0x00);
+    std::cout << "SSD at 0x0000: "
+              << static_cast<int>(bus.read(0xF2)) << '\n';
+
+    bus.write(0xF0, 0x05);
+    bus.write(0xF1, 0x01);
+    std::cout << "SSD at 0x0105: "
+              << static_cast<int>(bus.read(0xF2)) << '\n';
+
     return 0;
 }
 

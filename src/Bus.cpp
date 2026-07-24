@@ -19,7 +19,7 @@ uint8_t Bus::read(uint8_t address)
         return io_unit.read(address - 0xE0);
     }
 
-    return storage_controller.read(address);
+    return storage_controller.read(address - 0xF0);
 }
 
 void Bus::write(uint8_t address, uint8_t value)
@@ -36,7 +36,7 @@ void Bus::write(uint8_t address, uint8_t value)
         return;
     }
 
-    storage_controller.write(address, value);
+    storage_controller.write(address - 0xF0, value);
 }
 
 IoUnit& Bus::get_io_unit()
