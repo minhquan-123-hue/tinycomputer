@@ -6,6 +6,8 @@
 
 int main()
 {
+    // phần này sẽ có sự can thiệp của
+    // CPU - RAM - I/O - SCREEN
     RAM ram;
 
     ram.write(0, 25);
@@ -67,6 +69,34 @@ int main()
     bus.write(0xF1, 0x01);
     std::cout << "SSD at 0x0105: "
               << static_cast<int>(bus.read(0xF2)) << '\n';
+
+    std::cout << "\n";
+    std::cout << "PC (initial): " << static_cast<int>(registers.get_pc()) << '\n';
+    std::cout << "SP (initial): " << static_cast<int>(registers.get_sp()) << '\n';
+
+    registers.set_pc(10);
+    std::cout << "PC after set_pc(10): " << static_cast<int>(registers.get_pc()) << '\n';
+
+    registers.increment_pc();
+    std::cout << "PC after increment: " << static_cast<int>(registers.get_pc()) << '\n';
+
+    registers.set_sp(200);
+    std::cout << "SP after set_sp(200): " << static_cast<int>(registers.get_sp()) << '\n';
+
+    Flags flags;
+    flags.is_zero = true;
+    flags.is_carry = false;
+    flags.is_negative = true;
+    registers.set_flags(flags);
+
+    Flags read_flags = registers.get_flags();
+    std::cout << "Zero: " << read_flags.is_zero
+              << ", Carry: " << read_flags.is_carry
+              << ", Negative: " << read_flags.is_negative << '\n';
+
+    registers.set_pc(255);
+    registers.increment_pc();
+    std::cout << "PC after wraparound: " << static_cast<int>(registers.get_pc()) << '\n';
 
     return 0;
 }

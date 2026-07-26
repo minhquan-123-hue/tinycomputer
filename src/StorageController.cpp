@@ -21,11 +21,16 @@ void StorageController::set_address_high(uint8_t value)
 
 uint8_t StorageController::read(uint8_t address) const
 {
+    // nếu "thư" yêu cầu đúng là đọc
+    // thì sau đó kiểm tra
     if (address != DATA_READ_REGISTER)
     {
         return 0;
     }
 
+    // địa chỉ hiện tại đang đứng trong ssd
+    // là ở đâu, để nhét thêm nguyên liệu thô
+    // vào
     if (!is_address_in_range(current_address))
     {
         return 0;
@@ -36,6 +41,8 @@ uint8_t StorageController::read(uint8_t address) const
 
 void StorageController::write(uint8_t address, uint8_t value)
 {
+    // low + high = địa chỉ cất lương thực thô cần thiết
+    // có thể là bột năng, cà rốt (ảnh , video,...)
     if (address == ADDRESS_LOW_REGISTER)
     {
         set_address_low(value);
@@ -48,6 +55,7 @@ void StorageController::write(uint8_t address, uint8_t value)
         return;
     }
 
+    // nếu "thư" không yêu cầu viết thì dừng lại
     if (address != DATA_WRITE_REGISTER)
     {
         return;

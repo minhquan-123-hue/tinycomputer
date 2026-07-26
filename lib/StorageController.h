@@ -19,6 +19,8 @@ public:
     void write(uint8_t address, uint8_t value);
 
 private:
+    // dòng này để kiểm tra xem phải địa
+    // nằm trong phạm vi của DISK không
     bool is_address_in_range(uint16_t disk_address) const;
     void set_address_low(uint8_t value);
     void set_address_high(uint8_t value);
