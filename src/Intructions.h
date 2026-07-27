@@ -83,6 +83,11 @@
         A = operand
 */
 
+// đây là những lệnh để điều khiển các phần
+// của máy tính , và từng lệnh này có thể 
+// không thể thay đổi được 
+// và kiến trúc máy tính hiện tại chỉ có thể
+// thực hiện những lệnh sau.
 constexpr uint8_t OPCODE_HALT      = 0x00;
 constexpr uint8_t OPCODE_LOAD      = 0x01;
 constexpr uint8_t OPCODE_STORE     = 0x02;
