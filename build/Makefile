@@ -153,6 +153,30 @@ src/Bus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Bus.cpp.s
 .PHONY : src/Bus.cpp.s
 
+src/Cpu.o: src/Cpu.cpp.o
+.PHONY : src/Cpu.o
+
+# target to build an object file
+src/Cpu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o
+.PHONY : src/Cpu.cpp.o
+
+src/Cpu.i: src/Cpu.cpp.i
+.PHONY : src/Cpu.i
+
+# target to preprocess a source file
+src/Cpu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Cpu.cpp.i
+.PHONY : src/Cpu.cpp.i
+
+src/Cpu.s: src/Cpu.cpp.s
+.PHONY : src/Cpu.s
+
+# target to generate assembly for a file
+src/Cpu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Cpu.cpp.s
+.PHONY : src/Cpu.cpp.s
+
 src/IoUnit.o: src/IoUnit.cpp.o
 .PHONY : src/IoUnit.o
 
@@ -201,29 +225,29 @@ src/RAM.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/RAM.cpp.s
 .PHONY : src/RAM.cpp.s
 
-src/REGISTERS.o: src/REGISTERS.cpp.o
-.PHONY : src/REGISTERS.o
+src/Registers.o: src/Registers.cpp.o
+.PHONY : src/Registers.o
 
 # target to build an object file
-src/REGISTERS.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o
-.PHONY : src/REGISTERS.cpp.o
+src/Registers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Registers.cpp.o
+.PHONY : src/Registers.cpp.o
 
-src/REGISTERS.i: src/REGISTERS.cpp.i
-.PHONY : src/REGISTERS.i
+src/Registers.i: src/Registers.cpp.i
+.PHONY : src/Registers.i
 
 # target to preprocess a source file
-src/REGISTERS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.i
-.PHONY : src/REGISTERS.cpp.i
+src/Registers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Registers.cpp.i
+.PHONY : src/Registers.cpp.i
 
-src/REGISTERS.s: src/REGISTERS.cpp.s
-.PHONY : src/REGISTERS.s
+src/Registers.s: src/Registers.cpp.s
+.PHONY : src/Registers.s
 
 # target to generate assembly for a file
-src/REGISTERS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.s
-.PHONY : src/REGISTERS.cpp.s
+src/Registers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Registers.cpp.s
+.PHONY : src/Registers.cpp.s
 
 src/StorageController.o: src/StorageController.cpp.o
 .PHONY : src/StorageController.o
@@ -285,15 +309,18 @@ help:
 	@echo "... src/Bus.o"
 	@echo "... src/Bus.i"
 	@echo "... src/Bus.s"
+	@echo "... src/Cpu.o"
+	@echo "... src/Cpu.i"
+	@echo "... src/Cpu.s"
 	@echo "... src/IoUnit.o"
 	@echo "... src/IoUnit.i"
 	@echo "... src/IoUnit.s"
 	@echo "... src/RAM.o"
 	@echo "... src/RAM.i"
 	@echo "... src/RAM.s"
-	@echo "... src/REGISTERS.o"
-	@echo "... src/REGISTERS.i"
-	@echo "... src/REGISTERS.s"
+	@echo "... src/Registers.o"
+	@echo "... src/Registers.i"
+	@echo "... src/Registers.s"
 	@echo "... src/StorageController.o"
 	@echo "... src/StorageController.i"
 	@echo "... src/StorageController.s"

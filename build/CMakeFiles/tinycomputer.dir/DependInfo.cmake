@@ -9,9 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zigzagtik/studycs/tinycomputer/src/Bus.cpp" "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o.d"
+  "/home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp" "CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o.d"
   "/home/zigzagtik/studycs/tinycomputer/src/IoUnit.cpp" "CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o.d"
   "/home/zigzagtik/studycs/tinycomputer/src/RAM.cpp" "CMakeFiles/tinycomputer.dir/src/RAM.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/RAM.cpp.o.d"
-  "/home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp" "CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o.d"
+  "/home/zigzagtik/studycs/tinycomputer/src/Registers.cpp" "CMakeFiles/tinycomputer.dir/src/Registers.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/Registers.cpp.o.d"
   "/home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp" "CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o.d"
   "/home/zigzagtik/studycs/tinycomputer/src/main.cpp" "CMakeFiles/tinycomputer.dir/src/main.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/main.cpp.o.d"
   "" "/home/zigzagtik/studycs/tinycomputer/exe/tinycomputer" "gcc" "CMakeFiles/tinycomputer.dir/link.d"

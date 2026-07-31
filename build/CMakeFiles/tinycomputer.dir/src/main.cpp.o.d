@@ -165,4 +165,8 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/StorageController.h \
  /usr/include/c++/16/array /usr/include/c++/16/compare \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
- /home/zigzagtik/studycs/tinycomputer/src/../lib/REGISTERS.h
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/Registers.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/Cpu.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Bus.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/Intructions.h

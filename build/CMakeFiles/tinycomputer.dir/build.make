@@ -128,19 +128,19 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinycomputer.dir/src/RAM.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zigzagtik/studycs/tinycomputer/src/RAM.cpp -o CMakeFiles/tinycomputer.dir/src/RAM.cpp.s
 
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o: CMakeFiles/tinycomputer.dir/flags.make
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o: CMakeFiles/tinycomputer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o -MF CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o.d -o CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o -c /home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.o: CMakeFiles/tinycomputer.dir/flags.make
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/Registers.cpp
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.o: CMakeFiles/tinycomputer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tinycomputer.dir/src/Registers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tinycomputer.dir/src/Registers.cpp.o -MF CMakeFiles/tinycomputer.dir/src/Registers.cpp.o.d -o CMakeFiles/tinycomputer.dir/src/Registers.cpp.o -c /home/zigzagtik/studycs/tinycomputer/src/Registers.cpp
 
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp > CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.i
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tinycomputer.dir/src/Registers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zigzagtik/studycs/tinycomputer/src/Registers.cpp > CMakeFiles/tinycomputer.dir/src/Registers.cpp.i
 
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp -o CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.s
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinycomputer.dir/src/Registers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zigzagtik/studycs/tinycomputer/src/Registers.cpp -o CMakeFiles/tinycomputer.dir/src/Registers.cpp.s
 
 CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: CMakeFiles/tinycomputer.dir/flags.make
 CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp
@@ -156,14 +156,29 @@ CMakeFiles/tinycomputer.dir/src/StorageController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinycomputer.dir/src/StorageController.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp -o CMakeFiles/tinycomputer.dir/src/StorageController.cpp.s
 
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: CMakeFiles/tinycomputer.dir/flags.make
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: CMakeFiles/tinycomputer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o -MF CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o.d -o CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o -c /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp
+
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tinycomputer.dir/src/Cpu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp > CMakeFiles/tinycomputer.dir/src/Cpu.cpp.i
+
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinycomputer.dir/src/Cpu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp -o CMakeFiles/tinycomputer.dir/src/Cpu.cpp.s
+
 # Object files for target tinycomputer
 tinycomputer_OBJECTS = \
 "CMakeFiles/tinycomputer.dir/src/main.cpp.o" \
 "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o" \
 "CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o" \
 "CMakeFiles/tinycomputer.dir/src/RAM.cpp.o" \
-"CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o" \
-"CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o"
+"CMakeFiles/tinycomputer.dir/src/Registers.cpp.o" \
+"CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o" \
+"CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o"
 
 # External object files for target tinycomputer
 tinycomputer_EXTERNAL_OBJECTS =
@@ -172,12 +187,13 @@ tinycomputer_EXTERNAL_OBJECTS =
 /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/src/Bus.cpp.o
 /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o
 /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/src/RAM.cpp.o
-/home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o
+/home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/src/Registers.cpp.o
 /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o
+/home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o
 /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/build.make
 /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/compiler_depend.ts
 /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer: CMakeFiles/tinycomputer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zigzagtik/studycs/tinycomputer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/zigzagtik/studycs/tinycomputer/exe/tinycomputer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinycomputer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

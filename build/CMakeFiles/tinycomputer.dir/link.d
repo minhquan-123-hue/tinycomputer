@@ -6,8 +6,9 @@
   CMakeFiles/tinycomputer.dir/src/Bus.cpp.o \
   CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o \
   CMakeFiles/tinycomputer.dir/src/RAM.cpp.o \
-  CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o \
+  CMakeFiles/tinycomputer.dir/src/Registers.cpp.o \
   CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o \
+  CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
@@ -57,9 +58,11 @@ CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o:
 
 CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o:
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.o:
 
 CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o:
+
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so:
 

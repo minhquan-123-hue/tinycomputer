@@ -370,33 +370,6 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o: /home/zigzagtik/studycs/tinycomputer/
   /usr/include/sys/cdefs.h \
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp \
-  /home/zigzagtik/studycs/tinycomputer/lib/REGISTERS.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/c++/16/cstdint \
-  /usr/include/c++/16/pstl/pstl_config.h \
-  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/sys/cdefs.h \
-  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
-
 CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp \
   /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
   /usr/include/bits/libc-header-start.h \
@@ -715,11 +688,9 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 
 /usr/include/c++/16/bits/locale_conv.h:
 
-/home/zigzagtik/studycs/tinycomputer/src/main.cpp:
-
-/home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp:
-
 /home/zigzagtik/studycs/tinycomputer/lib/REGISTERS.h:
+
+/home/zigzagtik/studycs/tinycomputer/src/main.cpp:
 
 /usr/include/asm/posix_types_64.h:
 
@@ -919,6 +890,8 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 
 /usr/lib64/libm.so:
 
+/usr/include/c++/16/bits/stdexcept_throw.h:
+
 /usr/lib64/crt1.o:
 
 /usr/include/asm-generic/errno.h:
@@ -982,6 +955,8 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 /usr/include/c++/16/bits/stl_bvector.h:
 
 /usr/include/c++/16/debug/debug.h:
+
+/home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp:
 
 /usr/include/c++/16/bits/deque.tcc:
 
@@ -1174,10 +1149,6 @@ CMakeFiles/tinycomputer.dir/src/Bus.cpp.o:
 /usr/include/c++/16/bits/stringfwd.h:
 
 /usr/include/linux/stddef.h:
-
-/usr/include/c++/16/bits/stdexcept_throw.h:
-
-/home/zigzagtik/studycs/tinycomputer/src/REGISTERS.cpp:
 
 /usr/include/c++/16/cstdio:
 

@@ -10,8 +10,9 @@ add_executable(tinycomputer
     src/Bus.cpp
     src/IoUnit.cpp
     src/RAM.cpp
-    src/REGISTERS.cpp
+    src/Registers.cpp
     src/StorageController.cpp
+    src/Cpu.cpp
 )
 
 target_include_directories(tinycomputer PRIVATE

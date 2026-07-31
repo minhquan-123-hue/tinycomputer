@@ -17,10 +17,10 @@ struct Flags
     bool is_negative = false;
 };
 
-class REGISTERS
+class Registers
 {
 public:
-    REGISTERS();
+    Registers();
 
     // nhớ các con số để thực hiện phép tính
     void set_a(uint8_t value);
