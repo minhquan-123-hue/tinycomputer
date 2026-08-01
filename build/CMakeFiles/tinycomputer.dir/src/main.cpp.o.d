@@ -169,4 +169,5 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/Cpu.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Bus.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Intructions.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/Intructions.h

@@ -69,4 +69,5 @@ CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: \
  /usr/include/c++/16/bits/stl_queue.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/StorageController.h \
  /usr/include/c++/16/array /usr/include/c++/16/compare \
- /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Intructions.h

@@ -21,9 +21,10 @@
   /usr/lib64/libatomic.so.1.2.0 \
   /usr/lib64/libc_nonshared.a \
   CMakeFiles/tinycomputer.dir/src/Bus.cpp.o \
+  CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o \
   CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o \
   CMakeFiles/tinycomputer.dir/src/RAM.cpp.o \
-  CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o \
+  CMakeFiles/tinycomputer.dir/src/Registers.cpp.o \
   CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o \
   CMakeFiles/tinycomputer.dir/src/main.cpp.o
 
@@ -32,6 +33,99 @@ CMakeFiles/tinycomputer.dir/src/Bus.cpp.o: /home/zigzagtik/studycs/tinycomputer/
   /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
   /home/zigzagtik/studycs/tinycomputer/lib/RAM.h \
   /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/array \
+  /usr/include/c++/16/backward/binders.h \
+  /usr/include/c++/16/bit \
+  /usr/include/c++/16/bits/alloc_traits.h \
+  /usr/include/c++/16/bits/allocator.h \
+  /usr/include/c++/16/bits/concept_check.h \
+  /usr/include/c++/16/bits/cpp_type_traits.h \
+  /usr/include/c++/16/bits/deque.tcc \
+  /usr/include/c++/16/bits/erase_if.h \
+  /usr/include/c++/16/bits/exception.h \
+  /usr/include/c++/16/bits/exception_defines.h \
+  /usr/include/c++/16/bits/functional_hash.h \
+  /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/invoke.h \
+  /usr/include/c++/16/bits/memory_resource.h \
+  /usr/include/c++/16/bits/memoryfwd.h \
+  /usr/include/c++/16/bits/move.h \
+  /usr/include/c++/16/bits/new_allocator.h \
+  /usr/include/c++/16/bits/new_except.h \
+  /usr/include/c++/16/bits/new_throw.h \
+  /usr/include/c++/16/bits/predefined_ops.h \
+  /usr/include/c++/16/bits/ptr_traits.h \
+  /usr/include/c++/16/bits/range_access.h \
+  /usr/include/c++/16/bits/requires_hosted.h \
+  /usr/include/c++/16/bits/stdexcept_throw.h \
+  /usr/include/c++/16/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16/bits/stl_algobase.h \
+  /usr/include/c++/16/bits/stl_bvector.h \
+  /usr/include/c++/16/bits/stl_construct.h \
+  /usr/include/c++/16/bits/stl_deque.h \
+  /usr/include/c++/16/bits/stl_function.h \
+  /usr/include/c++/16/bits/stl_heap.h \
+  /usr/include/c++/16/bits/stl_iterator.h \
+  /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/16/bits/stl_iterator_base_types.h \
+  /usr/include/c++/16/bits/stl_pair.h \
+  /usr/include/c++/16/bits/stl_queue.h \
+  /usr/include/c++/16/bits/stl_uninitialized.h \
+  /usr/include/c++/16/bits/stl_vector.h \
+  /usr/include/c++/16/bits/uses_allocator.h \
+  /usr/include/c++/16/bits/uses_allocator_args.h \
+  /usr/include/c++/16/bits/utility.h \
+  /usr/include/c++/16/bits/vector.tcc \
+  /usr/include/c++/16/bits/version.h \
+  /usr/include/c++/16/compare \
+  /usr/include/c++/16/concepts \
+  /usr/include/c++/16/cstddef \
+  /usr/include/c++/16/cstdint \
+  /usr/include/c++/16/debug/assertions.h \
+  /usr/include/c++/16/debug/debug.h \
+  /usr/include/c++/16/deque \
+  /usr/include/c++/16/ext/alloc_traits.h \
+  /usr/include/c++/16/ext/numeric_traits.h \
+  /usr/include/c++/16/ext/type_traits.h \
+  /usr/include/c++/16/initializer_list \
+  /usr/include/c++/16/new \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/queue \
+  /usr/include/c++/16/tuple \
+  /usr/include/c++/16/type_traits \
+  /usr/include/c++/16/vector \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
+
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/RAM.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Cpu.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
@@ -370,6 +464,33 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o: /home/zigzagtik/studycs/tinycomputer/
   /usr/include/sys/cdefs.h \
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/Registers.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/cstdint \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
+
 CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp \
   /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
   /usr/include/bits/libc-header-start.h \
@@ -427,9 +548,13 @@ CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: /home/zigzagtik/studycs
 
 CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/main.cpp \
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Cpu.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Intructions.h \
   /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
   /home/zigzagtik/studycs/tinycomputer/lib/RAM.h \
-  /home/zigzagtik/studycs/tinycomputer/lib/REGISTERS.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \
   /home/zigzagtik/studycs/tinycomputer/lib/StorageController.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -688,17 +813,15 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 
 /usr/include/c++/16/bits/locale_conv.h:
 
-/home/zigzagtik/studycs/tinycomputer/lib/REGISTERS.h:
+/home/zigzagtik/studycs/tinycomputer/lib/Intructions.h:
 
 /home/zigzagtik/studycs/tinycomputer/src/main.cpp:
 
-/usr/include/asm/posix_types_64.h:
+/home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp:
 
-/usr/include/c++/16/bits/exception_ptr.h:
+/home/zigzagtik/studycs/tinycomputer/src/Registers.cpp:
 
-/usr/include/c++/16/system_error:
-
-/usr/include/asm/bitsperlong.h:
+/home/zigzagtik/studycs/tinycomputer/src/RAM.cpp:
 
 /usr/include/alloca.h:
 
@@ -707,6 +830,8 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 /usr/include/c++/16/ctime:
 
 /usr/lib64/libc_nonshared.a:
+
+/home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -754,6 +879,10 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 
 /usr/include/c++/16/bits/stl_function.h:
 
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
 /usr/include/c++/16/debug/assertions.h:
 
 /usr/include/c++/16/ext/alloc_traits.h:
@@ -767,6 +896,8 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 /usr/include/c++/16/x86_64-redhat-linux/bits/gthr.h:
 
 /usr/include/c++/16/bits/stl_construct.h:
+
+/home/zigzagtik/studycs/tinycomputer/lib/Registers.h:
 
 /usr/include/c++/16/bits/memoryfwd.h:
 
@@ -796,6 +927,10 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 
 /usr/include/c++/16/string:
 
+CMakeFiles/tinycomputer.dir/src/Registers.cpp.o:
+
+/usr/include/c++/16/cstddef:
+
 CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o:
 
 /usr/include/c++/16/type_traits:
@@ -804,33 +939,27 @@ CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o:
 
 /lib64/libc.so.6:
 
+CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o:
+
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/16/x86_64-redhat-linux/bits/c++allocator.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/ctype_inline.h:
-
-/usr/include/c++/16/bits/move.h:
 
 /usr/lib64/libatomic.so.1.2.0:
 
 /usr/include/c++/16/bits/new_allocator.h:
 
+/home/zigzagtik/studycs/tinycomputer/lib/Cpu.h:
+
+/usr/include/c++/16/bits/functexcept.h:
+
 CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o:
 
 /lib64/ld-linux-x86-64.so.2:
 
-CMakeFiles/tinycomputer.dir/src/REGISTERS.cpp.o:
+/usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h:
 
-/usr/include/c++/16/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/16/bits/stl_algobase.h:
-
-/usr/include/c++/16/queue:
-
-/usr/include/c++/16/array:
-
-/usr/include/c++/16/istream:
+/usr/include/c++/16/bits/postypes.h:
 
 /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h:
 
@@ -918,15 +1047,9 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 
 /usr/include/c++/16/new:
 
-/usr/include/c++/16/cstddef:
-
 /usr/include/bits/stdint-least.h:
 
 /usr/include/bits/long-double.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/bits/stdint-uintn.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -937,6 +1060,16 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h:
 
 /usr/include/bits/typesizes.h:
+
+/usr/include/c++/16/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/16/bits/stl_algobase.h:
+
+/usr/include/c++/16/queue:
+
+/usr/include/c++/16/array:
+
+/usr/include/c++/16/istream:
 
 /usr/include/c++/16/bits/predefined_ops.h:
 
@@ -956,21 +1089,35 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 
 /usr/include/c++/16/debug/debug.h:
 
-/home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp:
-
 /usr/include/c++/16/bits/deque.tcc:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/libgcc.a:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/include/asm/posix_types.h:
-
-/usr/include/bits/time.h:
-
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/c++/16/bits/exception_defines.h:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/asm/posix_types_64.h:
+
+/usr/include/c++/16/bits/exception_ptr.h:
+
+/usr/include/c++/16/system_error:
+
+/usr/include/c++/16/bits/move.h:
+
+/usr/include/c++/16/x86_64-redhat-linux/bits/ctype_inline.h:
 
 /usr/include/asm/types.h:
 
@@ -983,10 +1130,6 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 /usr/include/bits/errno.h:
 
 /usr/include/bits/timex.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
 
 /usr/include/bits/floatn-common.h:
 
@@ -1116,8 +1259,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o:
 
 /usr/include/c++/16/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/16/bits/functexcept.h:
-
 /usr/include/c++/16/bits/ios_base.h:
 
 CMakeFiles/tinycomputer.dir/src/Bus.cpp.o:
@@ -1207,9 +1348,3 @@ CMakeFiles/tinycomputer.dir/src/Bus.cpp.o:
 /usr/include/sys/single_threaded.h:
 
 /usr/include/time.h:
-
-/usr/include/c++/16/bits/postypes.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h:
-
-/home/zigzagtik/studycs/tinycomputer/src/RAM.cpp:
