@@ -2,9 +2,11 @@
 #define ALU_H
 
 #include <cstdint>
-
 #include "Registers.h"
 
+// cái này đơn giản là 
+// nơi lưu kết quả của phép tính
+// và cờ báo : âm , dương hoặc là "nhớ"
 struct AluResult
 {
     uint8_t value;

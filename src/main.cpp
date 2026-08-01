@@ -137,102 +137,25 @@ int main()
         << static_cast<int>(decoded_instruction.is_valid)
         << '\n';
 
+
+    // đoạn mới bắt đầu từ đây
     Alu alu;
 
     AluResult add_result = alu.add(20, 7);
-    std::cout
-        << "add(20,7): value="
-        << static_cast<int>(add_result.value)
-        << " zero="
-        << static_cast<int>(add_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(add_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(add_result.flags.is_negative)
-        << '\n';
 
-    AluResult add_overflow_result = alu.add(200, 100);
-    std::cout
-        << "add(200,100): value="
-        << static_cast<int>(add_overflow_result.value)
-        << " zero="
-        << static_cast<int>(add_overflow_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(add_overflow_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(add_overflow_result.flags.is_negative)
-        << '\n';
+    AluResult add_overflow_result = alu.add(200, 55);
 
     AluResult sub_result = alu.sub(10, 10);
-    std::cout
-        << "sub(10,10): value="
-        << static_cast<int>(sub_result.value)
-        << " zero="
-        << static_cast<int>(sub_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(sub_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(sub_result.flags.is_negative)
-        << '\n';
 
     AluResult sub_borrow_result = alu.sub(5, 10);
-    std::cout
-        << "sub(5,10): value="
-        << static_cast<int>(sub_borrow_result.value)
-        << " zero="
-        << static_cast<int>(sub_borrow_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(sub_borrow_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(sub_borrow_result.flags.is_negative)
-        << '\n';
 
     AluResult and_result = alu.and_op(0b1100, 0b1010);
-    std::cout
-        << "and_op(12,10): value="
-        << static_cast<int>(and_result.value)
-        << " zero="
-        << static_cast<int>(and_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(and_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(and_result.flags.is_negative)
-        << '\n';
 
     AluResult or_result = alu.or_op(0b1100, 0b1010);
-    std::cout
-        << "or_op(12,10): value="
-        << static_cast<int>(or_result.value)
-        << " zero="
-        << static_cast<int>(or_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(or_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(or_result.flags.is_negative)
-        << '\n';
 
     AluResult compare_equal_result = alu.compare(10, 10);
-    std::cout
-        << "compare(10,10): value="
-        << static_cast<int>(compare_equal_result.value)
-        << " zero="
-        << static_cast<int>(compare_equal_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(compare_equal_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(compare_equal_result.flags.is_negative)
-        << '\n';
 
     AluResult compare_less_result = alu.compare(5, 10);
-    std::cout
-        << "compare(5,10): value="
-        << static_cast<int>(compare_less_result.value)
-        << " zero="
-        << static_cast<int>(compare_less_result.flags.is_zero)
-        << " carry="
-        << static_cast<int>(compare_less_result.flags.is_carry)
-        << " negative="
-        << static_cast<int>(compare_less_result.flags.is_negative)
-        << '\n';
+
 }
 
