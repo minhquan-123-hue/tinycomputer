@@ -39,9 +39,14 @@ FetchedInstruction Cpu::fetch()
 
 DecodedInstruction Cpu::decode(const FetchedInstruction& fetched_instruction) const
 {
+    // kiểm tra rất đơn giản 
+    // chỉ đơn giản là xem nó có trong
+    // table lệnh của CPU không
     DecodedInstruction decoded_instruction;
+
     decoded_instruction.opcode = fetched_instruction.opcode_byte;
     decoded_instruction.operand = fetched_instruction.operand_byte;
+
     decoded_instruction.is_valid = is_known_opcode(fetched_instruction.opcode_byte);
 
     return decoded_instruction;
@@ -49,6 +54,12 @@ DecodedInstruction Cpu::decode(const FetchedInstruction& fetched_instruction) co
 
 bool Cpu::is_known_opcode(uint8_t opcode_byte) const
 {
+    // tạo một array chứa tất cả opcodes
+    // của cpu biết
+    // so sánh với lệnh đọc được trong RAM
+    // nếu khớp CPU chạy lệnh
+    // nếu không khớp thì dừng
+    // chỉ đơn giản vậy thôi.
     constexpr uint8_t known_opcodes[] = {
         OPCODE_HALT, OPCODE_LOAD, OPCODE_STORE, OPCODE_MOV_A_B, OPCODE_MOV_B_A,
         OPCODE_ADD, OPCODE_SUB, OPCODE_AND_OP, OPCODE_OR_OP, OPCODE_JMP,

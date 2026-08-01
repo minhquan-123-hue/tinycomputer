@@ -129,6 +129,30 @@ tinycomputer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/build
 .PHONY : tinycomputer/fast
 
+src/Alu.o: src/Alu.cpp.o
+.PHONY : src/Alu.o
+
+# target to build an object file
+src/Alu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Alu.cpp.o
+.PHONY : src/Alu.cpp.o
+
+src/Alu.i: src/Alu.cpp.i
+.PHONY : src/Alu.i
+
+# target to preprocess a source file
+src/Alu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Alu.cpp.i
+.PHONY : src/Alu.cpp.i
+
+src/Alu.s: src/Alu.cpp.s
+.PHONY : src/Alu.s
+
+# target to generate assembly for a file
+src/Alu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Alu.cpp.s
+.PHONY : src/Alu.cpp.s
+
 src/Bus.o: src/Bus.cpp.o
 .PHONY : src/Bus.o
 
@@ -306,6 +330,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tinycomputer"
+	@echo "... src/Alu.o"
+	@echo "... src/Alu.i"
+	@echo "... src/Alu.s"
 	@echo "... src/Bus.o"
 	@echo "... src/Bus.i"
 	@echo "... src/Bus.s"

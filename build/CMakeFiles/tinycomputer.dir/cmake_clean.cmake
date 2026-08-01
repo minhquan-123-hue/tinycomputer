@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tinycomputer.dir/link.d"
   "/home/zigzagtik/studycs/tinycomputer/exe/tinycomputer"
   "/home/zigzagtik/studycs/tinycomputer/exe/tinycomputer.pdb"
+  "CMakeFiles/tinycomputer.dir/src/Alu.cpp.o"
+  "CMakeFiles/tinycomputer.dir/src/Alu.cpp.o.d"
   "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o"
   "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o.d"
   "CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o"

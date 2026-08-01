@@ -35,6 +35,8 @@ public:
     // đọc lệnh hiện tại 
     // đưa cho ALU để thực thi
     FetchedInstruction fetch();
+    // sau khi đã có lệnh hợp nhất
+    // thì sau đó giải mã chúng ra
     DecodedInstruction decode(const FetchedInstruction& fetched_instruction) const;
 
     // máy sửa lỗi, kiểm tra 
@@ -44,6 +46,9 @@ public:
     Registers& get_registers();
 
 private:
+    // kiểm tra xem lệnh mà được tạo ra có
+    // trong table những câu lệnh mà CPU biết không
+    // nếu không thì dừng chương trình 
     bool is_known_opcode(uint8_t opcode_byte) const;
 
     // toàn quyền sở hữu

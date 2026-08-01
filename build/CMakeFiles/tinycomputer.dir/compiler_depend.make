@@ -121,6 +121,7 @@ CMakeFiles/tinycomputer.dir/src/Bus.cpp.o: /home/zigzagtik/studycs/tinycomputer/
 
 CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp \
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Intructions.h \
   /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
   /home/zigzagtik/studycs/tinycomputer/lib/RAM.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \
@@ -548,6 +549,7 @@ CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: /home/zigzagtik/studycs
 
 CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/main.cpp \
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
+  /home/zigzagtik/studycs/tinycomputer/lib/Intructions.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Cpu.h \
@@ -813,8 +815,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 
 /usr/include/c++/16/bits/locale_conv.h:
 
-/home/zigzagtik/studycs/tinycomputer/lib/Intructions.h:
-
 /home/zigzagtik/studycs/tinycomputer/src/main.cpp:
 
 /home/zigzagtik/studycs/tinycomputer/src/StorageController.cpp:
@@ -823,6 +823,8 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 
 /home/zigzagtik/studycs/tinycomputer/src/RAM.cpp:
 
+/usr/include/wchar.h:
+
 /usr/include/alloca.h:
 
 /home/zigzagtik/studycs/tinycomputer/src/IoUnit.cpp:
@@ -830,6 +832,8 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 /usr/include/c++/16/ctime:
 
 /usr/lib64/libc_nonshared.a:
+
+/home/zigzagtik/studycs/tinycomputer/lib/Intructions.h:
 
 /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp:
 
@@ -964,8 +968,6 @@ CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o:
 /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h:
 
 /usr/include/c++/16/cctype:
-
-/usr/include/wchar.h:
 
 /usr/include/c++/16/bits/invoke.h:
 

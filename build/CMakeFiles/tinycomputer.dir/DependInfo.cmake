@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/zigzagtik/studycs/tinycomputer/src/Alu.cpp" "CMakeFiles/tinycomputer.dir/src/Alu.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/Alu.cpp.o.d"
   "/home/zigzagtik/studycs/tinycomputer/src/Bus.cpp" "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o.d"
   "/home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp" "CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o.d"
   "/home/zigzagtik/studycs/tinycomputer/src/IoUnit.cpp" "CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o" "gcc" "CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o.d"
