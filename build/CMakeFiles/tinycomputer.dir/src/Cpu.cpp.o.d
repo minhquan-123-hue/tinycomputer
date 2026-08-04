@@ -71,6 +71,8 @@ CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: \
  /usr/include/c++/16/array /usr/include/c++/16/compare \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Intructions.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Alu.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h \
  /usr/include/c++/16/iostream /usr/include/c++/16/ostream \
  /usr/include/c++/16/bits/ostream.h /usr/include/c++/16/ios \
  /usr/include/c++/16/iosfwd /usr/include/c++/16/bits/stringfwd.h \

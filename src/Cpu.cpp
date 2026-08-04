@@ -77,9 +77,74 @@ bool Cpu::is_known_opcode(uint8_t opcode_byte) const
     return false;
 }
 
+ExecuteResult Cpu::execute(const DecodedInstruction& decoded_instruction)
+{
+    if (!decoded_instruction.is_valid)
+    {
+        return {true, false};
+    }
+
+    switch (decoded_instruction.opcode)
+    {
+    case OPCODE_HALT:
+        return {true, true};
+    case OPCODE_LOAD:
+        registers.set_a(bus.read(decoded_instruction.operand));
+        break;
+    case OPCODE_STORE:
+        bus.write(decoded_instruction.operand, registers.get_a());
+        break;
+    case OPCODE_MOV_A_B:
+        registers.set_b(registers.get_a());
+        break;
+    case OPCODE_MOV_B_A:
+        registers.set_a(registers.get_b());
+        break;
+    case OPCODE_ADD:
+        apply_alu_result(alu.add(registers.get_a(), registers.get_b()));
+        break;
+    case OPCODE_SUB:
+        apply_alu_result(alu.sub(registers.get_a(), registers.get_b()));
+        break;
+    case OPCODE_AND_OP:
+        apply_alu_result(alu.and_op(registers.get_a(), registers.get_b()));
+        break;
+    case OPCODE_OR_OP:
+        apply_alu_result(alu.or_op(registers.get_a(), registers.get_b()));
+        break;
+    case OPCODE_JMP:
+        registers.set_pc(decoded_instruction.operand);
+        break;
+    case OPCODE_JZ:
+        if (registers.get_flags().is_zero)
+        {
+            registers.set_pc(decoded_instruction.operand);
+        }
+        break;
+    case OPCODE_LOAD_IMM:
+        registers.set_a(decoded_instruction.operand);
+        break;
+    default:
+        return {true, false};
+    }
+
+    return {false, true};
+}
+
+void Cpu::apply_alu_result(const AluResult& alu_result)
+{
+    registers.set_a(alu_result.value);
+    registers.set_flags(alu_result.flags);
+}
+
 Registers& Cpu::get_registers()
 {
     // đọc nội dung của thanh ghi
     // xem pc,sp
     return registers;
+}
+
+Bus& Cpu::get_bus()
+{
+    return bus;
 }

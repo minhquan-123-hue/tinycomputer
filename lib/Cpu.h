@@ -6,6 +6,7 @@
 #include "../lib/Bus.h"
 #include "../lib/Registers.h"
 #include "../lib/Intructions.h"
+#include "../lib/Alu.h"
 
 // câu lệnh có 2 phần
 // lệnh + dữ liệu
@@ -20,6 +21,12 @@ struct DecodedInstruction
     uint8_t opcode;
     uint8_t operand;
     bool is_valid;
+};
+
+struct ExecuteResult
+{
+    bool is_halted;
+    bool is_valid_opcode;
 };
 
 class Cpu
@@ -38,12 +45,14 @@ public:
     // sau khi đã có lệnh hợp nhất
     // thì sau đó giải mã chúng ra
     DecodedInstruction decode(const FetchedInstruction& fetched_instruction) const;
+    ExecuteResult execute(const DecodedInstruction& decoded_instruction);
 
     // máy sửa lỗi, kiểm tra 
     // các trạng thái hiện tại của registers
     // stack pointer đã đúng vị trí chưa
     // pc đang ở đâu.
     Registers& get_registers();
+    Bus& get_bus();
 
 private:
     // kiểm tra xem lệnh mà được tạo ra có
@@ -51,12 +60,15 @@ private:
     // nếu không thì dừng chương trình 
     bool is_known_opcode(uint8_t opcode_byte) const;
 
+    void apply_alu_result(const AluResult& alu_result);
+
     // toàn quyền sở hữu
     Registers registers;
     // tham chiếu
     // và nhờ vả "write" và "read"
     // 
     Bus& bus;
+    Alu alu;
 };
 
 #endif
