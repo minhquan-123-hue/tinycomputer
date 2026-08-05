@@ -149,6 +149,7 @@ CMakeFiles/tinycomputer.dir/src/Bus.cpp.o: /home/zigzagtik/studycs/tinycomputer/
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
 CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/Cpu.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/Alu.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Intructions.h \
   /home/zigzagtik/studycs/tinycomputer/lib/IoUnit.h \
@@ -716,6 +717,7 @@ CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o: /home/zigzagtik/studycs
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
 CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer/src/main.cpp \
+  /home/zigzagtik/studycs/tinycomputer/lib/Alu.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Intructions.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \

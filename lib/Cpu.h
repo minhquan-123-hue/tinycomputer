@@ -8,6 +8,10 @@
 #include "../lib/Intructions.h"
 #include "../lib/Alu.h"
 
+// prevents infinite loops in buggy test programs,
+// not part of Tiny-8's real architecture.
+constexpr int MAX_INSTRUCTION_COUNT = 10000;
+
 // câu lệnh có 2 phần
 // lệnh + dữ liệu
 struct FetchedInstruction
@@ -16,6 +20,9 @@ struct FetchedInstruction
     uint8_t operand_byte;
 };
 
+// kiểm tra câu lệnh có khớp
+// với câu lệnh của kiến trúc CPU
+// không 
 struct DecodedInstruction
 {
     uint8_t opcode;
@@ -23,10 +30,19 @@ struct DecodedInstruction
     bool is_valid;
 };
 
+// nếu câu lệnh không khớp dừng lại
+// nếu câu lệnh khớp thì yêu cầu
+// ALU thực hiện lệnh tính toán này
 struct ExecuteResult
 {
     bool is_halted;
     bool is_valid_opcode;
+};
+
+struct RunResult
+{
+    bool is_valid_opcode;
+    int instructions_executed;
 };
 
 class Cpu
@@ -46,12 +62,15 @@ public:
     // thì sau đó giải mã chúng ra
     DecodedInstruction decode(const FetchedInstruction& fetched_instruction) const;
     ExecuteResult execute(const DecodedInstruction& decoded_instruction);
+    RunResult run();
 
     // máy sửa lỗi, kiểm tra 
     // các trạng thái hiện tại của registers
     // stack pointer đã đúng vị trí chưa
     // pc đang ở đâu.
     Registers& get_registers();
+    // trả lại vị trí "anh vận chuyển"
+    // đang đứng
     Bus& get_bus();
 
 private:
@@ -68,6 +87,8 @@ private:
     // và nhờ vả "write" và "read"
     // 
     Bus& bus;
+    // vì nó là chip tính toán 
+    // và thuộc quyền sở hửu của cpu
     Alu alu;
 };
 

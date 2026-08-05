@@ -12,7 +12,6 @@ FetchedInstruction Cpu::fetch()
     // sau đó đọc "lệnh" + "nội dung"
     // nhét nó vào một lệnh hoàn chỉnh
     uint8_t program_counter = registers.get_pc();
-    std::cout << program_counter << "\n";
 
     // đưa vào cấu trúc dữ liệu
     // để có thể nhóm thành 1 lệnh hoàn chỉnh
@@ -81,7 +80,10 @@ ExecuteResult Cpu::execute(const DecodedInstruction& decoded_instruction)
 {
     if (!decoded_instruction.is_valid)
     {
-        return {true, false};
+        // trả lại dữ liệu 
+        // ghi vào 2 trường dữ liệu trong
+        // 2 biến thành viên của struct ExecuteResult
+        return ExecuteResult{true, false};
     }
 
     switch (decoded_instruction.opcode)
@@ -131,6 +133,28 @@ ExecuteResult Cpu::execute(const DecodedInstruction& decoded_instruction)
     return {false, true};
 }
 
+RunResult Cpu::run()
+{
+    int instruction_count = 0;
+    while (instruction_count < MAX_INSTRUCTION_COUNT)
+    {
+        FetchedInstruction fetched_instruction = fetch();
+        DecodedInstruction decoded_instruction = decode(fetched_instruction);
+        ExecuteResult execution_result = execute(decoded_instruction);
+
+        instruction_count++;
+
+        if (execution_result.is_halted)
+        {
+            return RunResult{execution_result.is_valid_opcode, instruction_count};
+        }
+    }
+
+    return RunResult{false, instruction_count};
+}
+
+// hàm này đơn giản là lưu lại dữ liệu
+// alu vừa tính toán
 void Cpu::apply_alu_result(const AluResult& alu_result)
 {
     registers.set_a(alu_result.value);
@@ -146,5 +170,8 @@ Registers& Cpu::get_registers()
 
 Bus& Cpu::get_bus()
 {
+    // trả lại vị trí của anh
+    // bus hiện tại đang đứng ở
+    // đâu
     return bus;
 }
