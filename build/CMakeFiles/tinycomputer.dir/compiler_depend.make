@@ -721,7 +721,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Intructions.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Registers.h \
-  /home/zigzagtik/studycs/tinycomputer/lib/Alu.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Bus.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Cpu.h \
   /home/zigzagtik/studycs/tinycomputer/lib/Intructions.h \
@@ -813,7 +812,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/include/c++/16/bits/basic_string.tcc \
   /usr/include/c++/16/bits/char_traits.h \
   /usr/include/c++/16/bits/charconv.h \
-  /usr/include/c++/16/bits/codecvt.h \
   /usr/include/c++/16/bits/concept_check.h \
   /usr/include/c++/16/bits/cpp_type_traits.h \
   /usr/include/c++/16/bits/cxxabi_forced.h \
@@ -831,11 +829,8 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/include/c++/16/bits/istream.tcc \
   /usr/include/c++/16/bits/locale_classes.h \
   /usr/include/c++/16/bits/locale_classes.tcc \
-  /usr/include/c++/16/bits/locale_conv.h \
   /usr/include/c++/16/bits/locale_facets.h \
   /usr/include/c++/16/bits/locale_facets.tcc \
-  /usr/include/c++/16/bits/locale_facets_nonio.h \
-  /usr/include/c++/16/bits/locale_facets_nonio.tcc \
   /usr/include/c++/16/bits/localefwd.h \
   /usr/include/c++/16/bits/memory_resource.h \
   /usr/include/c++/16/bits/memoryfwd.h \
@@ -851,10 +846,8 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/include/c++/16/bits/postypes.h \
   /usr/include/c++/16/bits/predefined_ops.h \
   /usr/include/c++/16/bits/ptr_traits.h \
-  /usr/include/c++/16/bits/quoted_string.h \
   /usr/include/c++/16/bits/range_access.h \
   /usr/include/c++/16/bits/requires_hosted.h \
-  /usr/include/c++/16/bits/sstream.tcc \
   /usr/include/c++/16/bits/std_abs.h \
   /usr/include/c++/16/bits/stdexcept_except.h \
   /usr/include/c++/16/bits/stdexcept_throw.h \
@@ -890,7 +883,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/include/c++/16/cstdint \
   /usr/include/c++/16/cstdio \
   /usr/include/c++/16/cstdlib \
-  /usr/include/c++/16/ctime \
   /usr/include/c++/16/cwchar \
   /usr/include/c++/16/cwctype \
   /usr/include/c++/16/debug/assertions.h \
@@ -903,17 +895,14 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/include/c++/16/ext/string_conversions.h \
   /usr/include/c++/16/ext/type_traits.h \
   /usr/include/c++/16/initializer_list \
-  /usr/include/c++/16/iomanip \
   /usr/include/c++/16/ios \
   /usr/include/c++/16/iosfwd \
   /usr/include/c++/16/iostream \
   /usr/include/c++/16/istream \
-  /usr/include/c++/16/locale \
   /usr/include/c++/16/new \
   /usr/include/c++/16/ostream \
   /usr/include/c++/16/pstl/pstl_config.h \
   /usr/include/c++/16/queue \
-  /usr/include/c++/16/sstream \
   /usr/include/c++/16/stdexcept \
   /usr/include/c++/16/streambuf \
   /usr/include/c++/16/string \
@@ -933,9 +922,7 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/include/c++/16/x86_64-redhat-linux/bits/error_constants.h \
   /usr/include/c++/16/x86_64-redhat-linux/bits/gthr-default.h \
   /usr/include/c++/16/x86_64-redhat-linux/bits/gthr.h \
-  /usr/include/c++/16/x86_64-redhat-linux/bits/messages_members.h \
   /usr/include/c++/16/x86_64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/16/x86_64-redhat-linux/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -943,7 +930,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
-  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
@@ -967,24 +953,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h
 
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/time_members.h:
-
-/usr/include/c++/16/x86_64-redhat-linux/bits/messages_members.h:
-
-/usr/include/c++/16/sstream:
-
-/usr/include/c++/16/locale:
-
-/usr/include/c++/16/bits/sstream.tcc:
-
-/usr/include/c++/16/bits/quoted_string.h:
-
-/usr/include/c++/16/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/16/bits/locale_facets_nonio.h:
-
-/usr/include/c++/16/bits/locale_conv.h:
 
 /home/zigzagtik/studycs/tinycomputer/src/main.cpp:
 
@@ -1013,8 +981,6 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: /home/zigzagtik/studycs/tinycomputer
 /usr/include/c++/16/tuple:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/libatomic_asneeded.so:
-
-/usr/include/c++/16/iomanip:
 
 /usr/include/bits/struct_rwlock.h:
 
@@ -1158,8 +1124,6 @@ CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o:
 
 /usr/include/c++/16/bits/postypes.h:
 
-/usr/include/c++/16/ctime:
-
 /usr/lib64/libc_nonshared.a:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
@@ -1258,13 +1222,9 @@ CMakeFiles/tinycomputer.dir/src/RAM.cpp.o:
 
 /usr/include/features-time64.h:
 
-/usr/include/c++/16/bits/codecvt.h:
-
 /usr/include/c++/16/bits/stl_heap.h:
 
 /usr/include/c++/16/x86_64-redhat-linux/bits/gthr.h:
-
-/usr/include/libintl.h:
 
 /usr/include/bits/endianness.h:
 

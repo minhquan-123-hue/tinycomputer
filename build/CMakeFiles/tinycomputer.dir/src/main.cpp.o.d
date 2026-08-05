@@ -138,16 +138,7 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/basic_ios.tcc \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
- /usr/include/c++/16/bits/istream.tcc /usr/include/c++/16/iomanip \
- /usr/include/c++/16/locale \
- /usr/include/c++/16/bits/locale_facets_nonio.h /usr/include/c++/16/ctime \
- /usr/include/c++/16/x86_64-redhat-linux/bits/time_members.h \
- /usr/include/c++/16/x86_64-redhat-linux/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/16/bits/codecvt.h \
- /usr/include/c++/16/bits/locale_facets_nonio.tcc \
- /usr/include/c++/16/bits/locale_conv.h \
- /usr/include/c++/16/bits/quoted_string.h /usr/include/c++/16/sstream \
- /usr/include/c++/16/bits/sstream.tcc \
+ /usr/include/c++/16/bits/istream.tcc \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/Bus.h \
  /usr/include/c++/16/cstdint \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
@@ -172,5 +163,4 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Intructions.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Alu.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h \
- /home/zigzagtik/studycs/tinycomputer/src/../lib/Intructions.h \
- /home/zigzagtik/studycs/tinycomputer/src/../lib/Alu.h
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/Intructions.h
