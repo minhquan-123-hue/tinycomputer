@@ -10,6 +10,7 @@
   CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o \
   CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o \
   CMakeFiles/tinycomputer.dir/src/Alu.cpp.o \
+  CMakeFiles/tinycomputer.dir/src/Compiler.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
@@ -66,6 +67,8 @@ CMakeFiles/tinycomputer.dir/src/StorageController.cpp.o:
 CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o:
 
 CMakeFiles/tinycomputer.dir/src/Alu.cpp.o:
+
+CMakeFiles/tinycomputer.dir/src/Compiler.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so:
 

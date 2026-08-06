@@ -2,6 +2,7 @@
 #define BUS_H
 
 #include <cstdint>
+#include <vector>
 #include "RAM.h"
 #include "IoUnit.h"
 #include "StorageController.h"
@@ -17,6 +18,7 @@ public:
     // lúc thì mang thư yêu cầu công việc + hoặc hàng hóa thành phầm từ xưởng giao đi
     uint8_t read(uint8_t address);
     void write(uint8_t address, uint8_t value);
+    void load_program(const std::vector<uint8_t>& bytecode);
     IoUnit& get_io_unit();
 
 private:

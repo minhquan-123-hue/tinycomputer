@@ -177,6 +177,30 @@ src/Bus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Bus.cpp.s
 .PHONY : src/Bus.cpp.s
 
+src/Compiler.o: src/Compiler.cpp.o
+.PHONY : src/Compiler.o
+
+# target to build an object file
+src/Compiler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Compiler.cpp.o
+.PHONY : src/Compiler.cpp.o
+
+src/Compiler.i: src/Compiler.cpp.i
+.PHONY : src/Compiler.i
+
+# target to preprocess a source file
+src/Compiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Compiler.cpp.i
+.PHONY : src/Compiler.cpp.i
+
+src/Compiler.s: src/Compiler.cpp.s
+.PHONY : src/Compiler.s
+
+# target to generate assembly for a file
+src/Compiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinycomputer.dir/build.make CMakeFiles/tinycomputer.dir/src/Compiler.cpp.s
+.PHONY : src/Compiler.cpp.s
+
 src/Cpu.o: src/Cpu.cpp.o
 .PHONY : src/Cpu.o
 
@@ -336,6 +360,9 @@ help:
 	@echo "... src/Bus.o"
 	@echo "... src/Bus.i"
 	@echo "... src/Bus.s"
+	@echo "... src/Compiler.o"
+	@echo "... src/Compiler.i"
+	@echo "... src/Compiler.s"
 	@echo "... src/Cpu.o"
 	@echo "... src/Cpu.i"
 	@echo "... src/Cpu.s"

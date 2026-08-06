@@ -4,6 +4,7 @@
 #include "../lib/Registers.h"
 #include "../lib/Cpu.h"
 #include "../lib/Intructions.h"
+#include "../lib/Compiler.h"
 
 void run_one_plus_one_demo()
 {
@@ -43,6 +44,24 @@ int main()
 
     std::cout << "=== 1 + 1 Demo (matches user's mental model) ===\n";
     run_one_plus_one_demo();
+
+    std::cout << "=== Compiler Demo: a = 1 + 1 ===\n";
+
+    std::string source_code = "a = 1 + 1";
+
+    Compiler compiler;
+
+    std::vector<uint8_t> bytecode = compiler.compile(source_code);
+
+    Bus compiler_demo_bus;
+    compiler_demo_bus.load_program(bytecode);
+
+    Cpu compiler_demo_cpu(compiler_demo_bus);
+    compiler_demo_cpu.run();
+
+    uint8_t variable_address = compiler.get_variable_address("a");
+
+    std::cout << "a = " << static_cast<int>(compiler_demo_bus.read(variable_address)) << "\n";
 
     return 0;
 }

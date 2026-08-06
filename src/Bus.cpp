@@ -60,6 +60,11 @@ void Bus::write(uint8_t address, uint8_t value)
     storage_controller.write(address - 0xF0, value);
 }
 
+void Bus::load_program(const std::vector<uint8_t>& bytecode)
+{
+    ram.load_program(bytecode);
+}
+
 IoUnit& Bus::get_io_unit()
 {
     // nếu được lệnh là mang hợp đồng giao dịch

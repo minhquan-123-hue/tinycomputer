@@ -2,6 +2,7 @@
 #define RAM_H
 
 #include <cstdint>
+#include <vector>
 
 // kho chứa thành phẩm : hàng thì có hạn , nếu không giao ngay thì là hết hạn
 class RAM
@@ -16,6 +17,7 @@ public:
     // để xuất khẩu, hoặc để tí trộn thêm với nguyên liệu
     // khác sau
     void write(uint8_t address, uint8_t value);
+    void load_program(const std::vector<uint8_t>& bytecode);
 
 private:
     // kích thức của kho chứa thành phẩm

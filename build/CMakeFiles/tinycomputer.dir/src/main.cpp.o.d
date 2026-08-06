@@ -143,16 +143,16 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /usr/include/c++/16/cstdint \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h \
+ /usr/include/bits/stdint-least.h /usr/include/c++/16/vector \
+ /usr/include/c++/16/bits/stl_uninitialized.h \
+ /usr/include/c++/16/bits/stl_vector.h \
+ /usr/include/c++/16/bits/stl_bvector.h \
+ /usr/include/c++/16/bits/vector.tcc \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/IoUnit.h \
  /usr/include/c++/16/queue /usr/include/c++/16/deque \
- /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_deque.h /usr/include/c++/16/bits/deque.tcc \
- /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_vector.h \
- /usr/include/c++/16/bits/stl_bvector.h \
- /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/bits/stl_heap.h \
- /usr/include/c++/16/bits/stl_queue.h \
+ /usr/include/c++/16/bits/stl_heap.h /usr/include/c++/16/bits/stl_queue.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/StorageController.h \
  /usr/include/c++/16/array /usr/include/c++/16/compare \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/RAM.h \
@@ -163,4 +163,12 @@ CMakeFiles/tinycomputer.dir/src/main.cpp.o: \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Intructions.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Alu.h \
  /home/zigzagtik/studycs/tinycomputer/src/../lib/../lib/Registers.h \
- /home/zigzagtik/studycs/tinycomputer/src/../lib/Intructions.h
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/Intructions.h \
+ /home/zigzagtik/studycs/tinycomputer/src/../lib/Compiler.h \
+ /usr/include/c++/16/unordered_map \
+ /usr/include/c++/16/bits/unordered_map.h \
+ /usr/include/c++/16/bits/hashtable.h \
+ /usr/include/c++/16/bits/hashtable_policy.h \
+ /usr/include/c++/16/ext/aligned_buffer.h \
+ /usr/include/c++/16/bits/enable_special_members.h \
+ /usr/include/c++/16/bits/node_handle.h

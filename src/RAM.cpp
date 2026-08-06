@@ -1,5 +1,7 @@
 #include "../lib/RAM.h"
 
+#include <stdexcept>
+
 RAM::RAM()
 {
     // kho chứa lúc đầu nhẵn bóng
@@ -27,4 +29,22 @@ void RAM::write(uint8_t address, uint8_t value)
     // cất hàng thành phẩm và dãy 
     // này nhé
     memory[address] = value;
+}
+
+void RAM::load_program(const std::vector<uint8_t>& bytecode)
+{
+    if (bytecode.size() > 256)
+    {
+        throw std::runtime_error("bytecode exceeds RAM capacity");
+    }
+
+    for (int i = 0; i < 256; i++)
+    {
+        memory[i] = 0;
+    }
+
+    for (std::size_t i = 0; i < bytecode.size(); i++)
+    {
+        write(static_cast<uint8_t>(i), bytecode[i]);
+    }
 }

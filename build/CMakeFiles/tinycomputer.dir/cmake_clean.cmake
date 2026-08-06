@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tinycomputer.dir/src/Alu.cpp.o.d"
   "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o"
   "CMakeFiles/tinycomputer.dir/src/Bus.cpp.o.d"
+  "CMakeFiles/tinycomputer.dir/src/Compiler.cpp.o"
+  "CMakeFiles/tinycomputer.dir/src/Compiler.cpp.o.d"
   "CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o"
   "CMakeFiles/tinycomputer.dir/src/Cpu.cpp.o.d"
   "CMakeFiles/tinycomputer.dir/src/IoUnit.cpp.o"

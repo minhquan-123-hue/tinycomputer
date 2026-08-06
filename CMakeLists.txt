@@ -14,6 +14,7 @@ add_executable(tinycomputer
     src/StorageController.cpp
     src/Cpu.cpp
     src/Alu.cpp
+    src/Compiler.cpp
 )
 
 target_include_directories(tinycomputer PRIVATE
